@@ -11,7 +11,7 @@ function App() {
         <div class="max-w-sm overflow-hidden shadow-lg bg-slate-200 rounded-lg">
           <img
             class="w-full"
-            src="https://cdn.siasat.com/wp-content/uploads/2020/08/panda-1536x1024.jpg"
+            src="https://medias.spotern.com/spots/w640/66/66561-1532336916.jpg"
             alt="Sunset in the mountains"
           />
           <div class="px-6 py-4">

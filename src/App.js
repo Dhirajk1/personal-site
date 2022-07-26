@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1 class="text-blue-600 hover:text-red-300 underline">
-          TESTING TAILWIND
+          TESTING TAILWIND (plz work)
         </h1>
         Personal Site for Dhiraj Kuttichirayil
         <div class="max-w-sm overflow-hidden shadow-lg bg-slate-200 rounded-lg">

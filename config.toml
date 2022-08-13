@@ -1,3 +1,4 @@
+publishDir = "docs"
 baseURL = "www.dhirajk.info"
 title = "Dhiraj Kuttichirayil"
 author = "Dhiraj Kuttichirayil"
@@ -12,7 +13,6 @@ ignoreErrors = ["error-remote-getjson"]
 
 # ------------------------------
 theme = "paper"
-title = "Dhiraj Kuttichirayil"
 
 [params]
   github = 'nanxiaobei'

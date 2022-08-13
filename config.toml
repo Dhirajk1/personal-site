@@ -1,5 +1,5 @@
 publishDir = "docs"
-baseURL = "www.dhirajk.info"
+baseURL = "https://www.dhirajk.info"
 title = "Dhiraj Kuttichirayil"
 author = "Dhiraj Kuttichirayil"
 copyright = "Copyright © 2022"

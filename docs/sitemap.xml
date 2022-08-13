@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>www.dhirajk.info/categories/</loc>
+    <loc>https://www.dhirajk.info/categories/</loc>
   </url><url>
-    <loc>www.dhirajk.info/</loc>
+    <loc>https://www.dhirajk.info/</loc>
   </url><url>
-    <loc>www.dhirajk.info/series/</loc>
+    <loc>https://www.dhirajk.info/series/</loc>
   </url><url>
-    <loc>www.dhirajk.info/tags/</loc>
+    <loc>https://www.dhirajk.info/tags/</loc>
   </url>
 </urlset>

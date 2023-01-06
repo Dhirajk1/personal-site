@@ -3,7 +3,7 @@
 #
 # The URL from which the site will be served
 publishdir = "docs"
-baseurl = "dhirajk.info/"
+baseurl = "http://dhirajk.info/"
 #relativeURLs = "True"
 # Language used
 languageCode = "en-us"

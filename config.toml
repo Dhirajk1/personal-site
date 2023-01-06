@@ -59,31 +59,18 @@ pygmentsStyle = "native"
 [params]
     # Site description. Individual pages can have descriptions too but if
     # missing it will fallback to that one.
-    description = """The homepage of Astatine. This website is a demo the of the \
-    Hugo theme Astatine."""
+    description = """A little about me, Dhiraj Kuttichirayil"""
     # Author of the site
-    authorName = "Jack Harkness"
+    authorName = "Dhiraj Kuttichirayil"
     # Main image for the author. This will be the default image for SEO.
     [params.imgname]
-        name = "img/main.jpg"
+        name = "https://avatars.githubusercontent.com/u/25961063?v=4"
         # Add an alt description for the image
         alt = "Profile picture"
 
     # Indicate if you host Katex yourself. Defaults to using the CDN KaTex.
     # hostedKaTex = false
 
-    # Optional: add a twitter handle and mastodon handle for SEO.
-    # [params.twitter]
-        # name = "@Jack_harkness"
-    # [params.mastodon]
-        # name = "@jkharkness"
-        # host = "mastodon.social"
-    
-    # Enable link to feed in footer
-    blogrss = true
-
-    # Enable pingback and webmention via webmention.io
-    # webmention = "hugocisneros.com"
 
 
 # Sitemap location (default is /sitemap.xml)

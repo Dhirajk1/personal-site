@@ -3,126 +3,15 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     
     <url>
-        <loc>/</loc>
-        <lastmod>2018-05-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>/post/</loc>
-        <lastmod>2018-05-09T00:00:00+00:00</lastmod>
-        <priority>0</priority>
-    </url>
-    
-    <url>
-        <loc>/tags/actor/</loc>
-        <lastmod>2018-05-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
         <loc>/categories/</loc>
-        <lastmod>2018-05-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>/tags/interest/</loc>
-        <lastmod>2018-05-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>/categories/metaphorsum/</loc>
-        <lastmod>2018-05-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>/categories/post/</loc>
-        <lastmod>2018-05-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>/tags/snowflakes/</loc>
-        <lastmod>2018-05-09T00:00:00+00:00</lastmod>
+        <loc>/</loc>
     </url>
     
     <url>
         <loc>/tags/</loc>
-        <lastmod>2018-05-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>/the-actor-is-a-gander/</loc>
-        <lastmod>2018-05-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>/tags/visitor/</loc>
-        <lastmod>2018-05-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>/tags/beach/</loc>
-        <lastmod>2018-03-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>/tags/math/</loc>
-        <lastmod>2018-03-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>/tags/nothing/</loc>
-        <lastmod>2018-03-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>/tags/riddles/</loc>
-        <lastmod>2018-03-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>/the-beach-is-a-push/</loc>
-        <lastmod>2018-03-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>/tags/verbatim/</loc>
-        <lastmod>2018-03-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>/tags/bookcase/</loc>
-        <lastmod>2018-02-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>/tags/code/</loc>
-        <lastmod>2018-02-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>/extending-this-logic/</loc>
-        <lastmod>2018-02-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>/tags/lamb/</loc>
-        <lastmod>2018-02-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>/tags/shell/</loc>
-        <lastmod>2018-02-09T00:00:00+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>/static/google98ff23a7bf5b609b/</loc>
-    </url>
-    
-    <url>
-        <loc>/about/</loc>
-    </url>
-    
-    <url>
-        <loc>/static/</loc>
     </url>
     
 </urlset>

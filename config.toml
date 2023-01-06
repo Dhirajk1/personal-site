@@ -2,8 +2,8 @@
 # Astatine (see https://github.com/hugcis/hugo-astatine-theme).
 #
 # The URL from which the site will be served
-baseurl = "https://dhirajk.info"
-relativeURLs = "True"
+baseurl = ""
+#relativeURLs = "True"
 # Language used
 languageCode = "en-us"
 # Website title

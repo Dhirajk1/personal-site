@@ -3,8 +3,7 @@
 #
 # The URL from which the site will be served
 publishDir = "docs"
-#baseURL = ""
-#relativeURLs = "True"
+baseURL = "dhirajk.info"
 # Language used
 languageCode = "en-us"
 # Website title

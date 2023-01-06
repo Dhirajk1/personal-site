@@ -4,7 +4,7 @@
 # The URL from which the site will be served
 publishdir = "docs"
 baseurl = ""
-relativeURLs = "True"
+#relativeURLs = "True"
 # Language used
 languageCode = "en-us"
 # Website title

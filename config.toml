@@ -2,6 +2,7 @@
 # Astatine (see https://github.com/hugcis/hugo-astatine-theme).
 #
 # The URL from which the site will be served
+publishDir = "docs"
 baseURL = ""
 relativeURLs = "True"
 # Language used

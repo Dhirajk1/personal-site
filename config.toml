@@ -3,7 +3,7 @@
 #
 # The URL from which the site will be served
 publishdir = "docs"
-baseurl = ""
+baseurl = "https://dhirajk1.github.io/personal-site/"
 #relativeURLs = "True"
 # Language used
 languageCode = "en-us"

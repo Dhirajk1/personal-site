@@ -2,14 +2,12 @@
 # Astatine (see https://github.com/hugcis/hugo-astatine-theme).
 #
 # The URL from which the site will be served
-publishDir = "docs"
-baseURL = "dhirajk.info"
+baseurl = "https://dhirajk.info"
+relativeURLs = "True"
 # Language used
 languageCode = "en-us"
 # Website title
 title = "Dhiraj Kuttichirayil"
-author = "Dhiraj Kuttichirayil"
-copyright = "Copyright © 2022"
 # Theme used
 theme = "hugo-astatine-theme"
 

@@ -2,8 +2,8 @@
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1"><title>The beach is a push - Dhiraj Kuttichirayil</title>
-<meta property="og:title" content="The beach is a push - Dhiraj Kuttichirayil">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1"><title>Cute Probability Problem - Dhiraj Kuttichirayil</title>
+<meta property="og:title" content="Cute Probability Problem - Dhiraj Kuttichirayil">
 <meta property="og:type" content="article">
 
 
@@ -13,7 +13,7 @@
 <meta name="Description" property="description" content="A little about me, Dhiraj Kuttichirayil">
 
 
-<meta property="keywords" content ="riddles, beach, nothing, interest, verbatim, math">
+<meta property="keywords" content ="problem, statistics, probability, python, math">
 
 
 
@@ -106,15 +106,19 @@
     
 <article class="article h-entry" itemprop="mainEntity" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="title-container">
-        <h1 class="article-title p-name" itemprop="name">The beach is a push</h1>
+        <h1 class="article-title p-name" itemprop="name">Cute Probability Problem</h1>
+        
+        <b><i itemprop="headline" class="article-headline text-lg p-summary">
+            A small brainteaser
+        </i></b>
         
         <div class="flex justify-between items-center">
             
             <a class="text-lg text-gray-600 dark:text-gray-400 border-none u-url" href="https://dhirajk.info/the-beach-is-a-push/">
                 <time itemprop="datePublished" class="dt-published"
-                    datetime="2018-03-09T00:00:00Z"
-                    content="2018-03-09T00:00:00Z">
-                    2018.03.09
+                    datetime="2021-08-09T00:00:00Z"
+                    content="2021-08-09T00:00:00Z">
+                    2021.08.09
                 </time>
             </a>
             
@@ -128,24 +132,18 @@
     </div>
 
     <div class="article-content e-content" itemprop="articleBody">
-        <p>Gainly stops show us how mother-in-laws can be drizzles. Some assert that the
-<code>fahrenheit</code> is a mascara. The crosswise idea reveals itself as a baddish ink to
-those who look. A grasping interest without kitties is truly a crocus of hopeful
-nets. The <code>developments</code> could be said to resemble farfetched triangles. A mind
-of the fender is assumed to be a cornute radiator.</p>
-<pre tabindex="0"><code>In ancient times a whapping napkin&#39;s alcohol comes with it the thought 
-that the weldless industry is a quill. A kilogram is a hardware&#39;s support. 
-Few can name a hatted trouble that isn&#39;t a rotted fowl. Those trapezoids 
-are nothing more than vacations. The beach is a push. A carsick giraffe 
-is an inch of the mind.
-</code></pre><p>Monthly riddles show us how shrimp can be nephews. In recent years, few can name
-a styloid dryer that isn&rsquo;t a toyless shoe. Their corn was, in this moment, a
-whoreson opera. Few can name a schmalzy cheetah that isn&rsquo;t a dashing barber. The
-chiffon alcohol comes from a million hen. What we don&rsquo;t know for sure is whether
-or not those trips are nothing more than barges.</p>
-<p>\[
-x = 32 \sum_{t=1}^{+\infty} t^t
-\]</p>
+        <blockquote>
+<p>Probability problem for the nerds for today, what is the probability that two whole numbers from 1 to 1000 chosen at random are divisible without remainder (as in a/b=whole number but not necessarily b/a= whole number)</p>
+</blockquote>
+<p>So we know that there are 1000 possibilities for the first number, and another 1000 for the second number. Given this we know that the size of the sample space space is 1000^2. Let&rsquo;s also define <em>a</em> as the first number and <em>b</em> as the second number. The problem is essentially asking us to find how many possibilities for <em>b</em> there are in [1, 1000] where <em>b</em> is a multiple of <em>a</em>. This is as simple enough as finding how many factors of <em>a</em> are in the range [1, 1000] which is simply the floor of 1000 divided by that number. We sum up all these possibilities and then divide by the sample space to get our answer</p>
+<p>$$
+\frac{\sum_{n=1}^{1000}\limits{\lfloor \frac{1000}{n} \rfloor}}{1000^2}
+$$</p>
+<p>We can write Python code as follows:</p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>successes = <span style="color:#24909d">sum</span>(<span style="color:#3677a9">1000</span> // a <span style="color:#6ab825;font-weight:bold">for</span> a <span style="color:#6ab825;font-weight:bold">in</span> <span style="color:#24909d">range</span>(<span style="color:#3677a9">1</span>,<span style="color:#3677a9">1001</span>))
+</span></span><span style="display:flex;"><span>possibilities = <span style="color:#3677a9">1000</span> ** <span style="color:#3677a9">2</span>
+</span></span><span style="display:flex;"><span>prob = successes / possibilities
+</span></span></code></pre></div><p>And find that the probability is: <em><strong>0.007069</strong></em></p>
 
     </div>
 
@@ -157,23 +155,23 @@ x = 32 \sum_{t=1}^{+\infty} t^t
     Categories:
     
     <a class="inline-block mt-2 mr-2 border-none text-neutral-800 dark:text-neutral-200"
-       href="/categories/post">
+       href="/categories/probability">
     <span class="tag-item dark:bg-zinc-900 dark:hover:bg-zinc-700
                  hover:bg-zinc-200 bg-zinc-100
                  dark:border-zinc-600 py-0.5
                  px-1 rounded-t border-b-2 border-zinc-300
                  hover:border-zinc-500">
-    Post
+    probability
     </span>
 </a>
     <a class="inline-block mt-2 mr-2 border-none text-neutral-800 dark:text-neutral-200"
-       href="/categories/metaphorsum">
+       href="/categories/python">
     <span class="tag-item dark:bg-zinc-900 dark:hover:bg-zinc-700
                  hover:bg-zinc-200 bg-zinc-100
                  dark:border-zinc-600 py-0.5
                  px-1 rounded-t border-b-2 border-zinc-300
                  hover:border-zinc-500">
-    Metaphorsum
+    python
     </span>
 </a>
 </li >
@@ -183,7 +181,7 @@ x = 32 \sum_{t=1}^{+\infty} t^t
     Tags:
     
     <a class="inline-block mt-2 mr-2 border-none text-neutral-800 dark:text-neutral-200"
-       href="/tags/riddles">
+       href="/tags/problem">
         <span class="flex flex-row justify-start items-center
                      dark:bg-zinc-900 dark:hover:bg-zinc-700
                      hover:bg-zinc-300 bg-zinc-200
@@ -193,12 +191,12 @@ x = 32 \sum_{t=1}^{+\infty} t^t
             
             <img class="h-4 mr-2 inline" src="https://dhirajk.info/images/tag_logo.svg"
                  alt="Logo of a tag: indicates that a tag item follows.">
-            Riddles
+            Problem
         </span>
     </a>
     
     <a class="inline-block mt-2 mr-2 border-none text-neutral-800 dark:text-neutral-200"
-       href="/tags/beach">
+       href="/tags/statistics">
         <span class="flex flex-row justify-start items-center
                      dark:bg-zinc-900 dark:hover:bg-zinc-700
                      hover:bg-zinc-300 bg-zinc-200
@@ -208,12 +206,12 @@ x = 32 \sum_{t=1}^{+\infty} t^t
             
             <img class="h-4 mr-2 inline" src="https://dhirajk.info/images/tag_logo.svg"
                  alt="Logo of a tag: indicates that a tag item follows.">
-            Beach
+            Statistics
         </span>
     </a>
     
     <a class="inline-block mt-2 mr-2 border-none text-neutral-800 dark:text-neutral-200"
-       href="/tags/nothing">
+       href="/tags/probability">
         <span class="flex flex-row justify-start items-center
                      dark:bg-zinc-900 dark:hover:bg-zinc-700
                      hover:bg-zinc-300 bg-zinc-200
@@ -223,12 +221,12 @@ x = 32 \sum_{t=1}^{+\infty} t^t
             
             <img class="h-4 mr-2 inline" src="https://dhirajk.info/images/tag_logo.svg"
                  alt="Logo of a tag: indicates that a tag item follows.">
-            Nothing
+            Probability
         </span>
     </a>
     
     <a class="inline-block mt-2 mr-2 border-none text-neutral-800 dark:text-neutral-200"
-       href="/tags/interest">
+       href="/tags/python">
         <span class="flex flex-row justify-start items-center
                      dark:bg-zinc-900 dark:hover:bg-zinc-700
                      hover:bg-zinc-300 bg-zinc-200
@@ -238,22 +236,7 @@ x = 32 \sum_{t=1}^{+\infty} t^t
             
             <img class="h-4 mr-2 inline" src="https://dhirajk.info/images/tag_logo.svg"
                  alt="Logo of a tag: indicates that a tag item follows.">
-            Interest
-        </span>
-    </a>
-    
-    <a class="inline-block mt-2 mr-2 border-none text-neutral-800 dark:text-neutral-200"
-       href="/tags/verbatim">
-        <span class="flex flex-row justify-start items-center
-                     dark:bg-zinc-900 dark:hover:bg-zinc-700
-                     hover:bg-zinc-300 bg-zinc-200
-                     dark:border-zinc-600 py-0.5
-                     px-1 rounded-t border-b-2 border-zinc-300
-                     hover:border-zinc-500">
-            
-            <img class="h-4 mr-2 inline" src="https://dhirajk.info/images/tag_logo.svg"
-                 alt="Logo of a tag: indicates that a tag item follows.">
-            Verbatim
+            Python
         </span>
     </a>
     
@@ -282,9 +265,9 @@ x = 32 \sum_{t=1}^{+\infty} t^t
     
     <div class="text-neutral-500 mb-4">
         Last modified <span itemprop="dateModified"
-                            datetime="2018-03-09T00:00:00Z"
-                            content="2018-03-09T00:00:00Z">
-        2018.03.09
+                            datetime="2021-08-09T00:00:00Z"
+                            content="2021-08-09T00:00:00Z">
+        2021.08.09
         </span>
     </div>
     

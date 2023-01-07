@@ -14,7 +14,6 @@ address:
 -
     name: I like computers and math :)
 ---
-
 # Bio
 
 Me: I'm that guy

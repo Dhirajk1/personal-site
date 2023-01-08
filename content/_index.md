@@ -9,7 +9,6 @@ address:
 -
     name: I like computers and math :)
 ---
-# Bio
 
 Hi there! I'm currently an undergraduate student at the University of Illinois at Urbana-Champaign studying Statistics & Computer Science. Feel free to check out more about me using the links in the footer below. I do a lot of stuff, but most of the time I do computer or stuff so I've learned to like it (*its not a lie if you believe it*). Hopefully I'll find more interesting things to populate this website with in the future, but in the meantime enjoy what I have so far :)
   

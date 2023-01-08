@@ -1,19 +1,18 @@
 ---
-# === Required fields  ===
-# Your name 
 name: "Dhiraj Kuttichirayil"
-# Your profile picture
 imgname: 
   name: "img/main.jpg"
   alt: "Picture of me"
   type: image/jpeg
-# A title (job title or "Researcher", "PhD student", etc.)
 personal_title: "Studying Stat + CS @ UIUC"
-# An address (you can list multiple)
 address: 
 -
     name: I like computers and math :)
 ---
 # Bio
 
-Me: I'm that guy
+Hi there! I'm currently an undergraduate student at the University of Illinois at Urbana-Champaign studying Statistics & Computer Science. Feel free to check out more about me using the links in the footer below. I do a lot of stuff, but most of the time I do computer or stuff so I've learned to like it (*its not a lie if you believe it*). Hopefully I'll find more interesting things to populate this website with in the future, but in the meantime enjoy what I have so far :)
+  
+***********************************
+
+This website was built with [Hugo](https://gohugo.io) (❤️ markdown) and this lovely theme is courtesy of Hugo Cisneros' [Astatine](https://github.com/hugcis/hugo-astatine-theme).

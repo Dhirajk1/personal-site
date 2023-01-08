@@ -64,7 +64,7 @@ pygmentsStyle = "native"
     authorName = "Dhiraj Kuttichirayil"
     # Main image for the author. This will be the default image for SEO.
     [params.imgname]
-        name = "https://avatars.githubusercontent.com/u/25961063?v=4"
+        name = "img/ranpo.png"
         # Add an alt description for the image
         alt = "Profile picture"
 
